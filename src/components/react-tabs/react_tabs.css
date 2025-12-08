@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    border-bottom: none;
+    padding-bottom: 30px;
 }
 
 .react-tabs__tab{

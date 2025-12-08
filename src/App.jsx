@@ -1,12 +1,12 @@
 import './App.css'
-import Certificates from './components/certificates_carousel/certificates';
+import Certificates from './components/certificatesCarousel/certificates';
 import Footer from './components/footer/Footer';
 
 
 import Header from './components/header/Header';
-import HeroCarousel from './components/hero_carousel/Hero-carousel';
+import HeroCarousel from './components/heroCarousel/Hero-carousel';
 
-import OurTeam from './components/our_team/OurTeam';
+import OurTeam from './components/ourTeam/OurTeam';
 import ReactTabs from './components/react-tabs/ReactTabs';
 
 // const certificates = [
@@ -118,14 +118,14 @@ function App() {
         </section>
 
         <section className=' py-[40px] px-[20px]'>
-          <div className='container mx-auto relative max-h-[400px] rounded-[14px] object-cover overflow-hidden shadow-grey shadow-2xl'>
-            <img className='w-full  bg-center bg-no-repeat bg-cover ' src="/images/form_banner 1.png" alt="" />
+          <div className='container mx-auto relative h-[400px] rounded-[14px] object-cover overflow-hidden shadow-grey shadow-2xl'>
+            <img className='w-full h-full bg-center bg-no-repeat object-cover' src="/images/form_banner 1.png" alt="" />
             <div className='absolute top-[24px] left-[20px]'>
-              <h1 className='text-[32px] font-[600] text-center pb-[20px]'>Получить подробную <span className='text-[#EF7C00]'>информацию</span></h1>
+              <h1 className='text-[32px] font-[600] text-center pb-[20px] leading-[35px]'>Получить подробную <span className='text-[#EF7C00]'>информацию</span></h1>
               <p className='max-w-[400px]'>Просто заполните форму, наш менеджер свяжетсяс вами в ближайшее время</p>
               <form className='py-[35px] flex flex-col gap-[12px]' action="">
-                <div className='flex items-center gap-[12px]'><span className='flex items-center'><img className='p-[13px] border-[1px] border-[#00103D1F] rounded-l-[8px] rounded-r-[0px]' src="/images/Vector.svg" alt="" /><input required className='max-w-[178px] border-[1px] border-[#00103D1F] h-[42px] pl-[15px] rounded-r-[8px]' placeholder='Ваше имя' type="text" /></span><span className='flex items-center'><img className='p-[13px] border-[1px] border-[#00103D1F] rounded-l-[8px] rounded-r-[0px]' src="/images/Vector (1).svg" alt="" /><input required className='max-w-[178px] border-[1px] border-[#00103D1F] h-[42px] pl-[15px] rounded-r-[8px]' placeholder='+375 (29) 0000000' type="tel" /></span></div>
-                <div className=''><input required placeholder='Комментарий' className='pl-[15px] pb-[40px] max-w-[453px] w-full h-[80px] border-[1px] border-[#00103D1F] rounded-[8px]' type="textarea" /></div>
+                <div className='flex items-center gap-[12px]'><span className='flex items-center bg-[white]'><img className='p-[13px] border-[1px] border-[#00103D1F] rounded-l-[8px] rounded-r-[0px]' src="/images/Vector.svg" alt="" /><input required className='max-w-[178px] border-[1px] border-[#00103D1F] bg-[#ffffff] h-[42px] pl-[15px] rounded-r-[8px]' placeholder='Ваше имя' type="text" /></span><span className='flex items-center bg-[white]'><img className='p-[13px] border-[1px] border-[#00103D1F] rounded-l-[8px] rounded-r-[0px]' src="/images/Vector (1).svg" alt="" /><input required className='max-w-[178px] bg-[#ffffff] border-[1px] border-[#00103D1F] h-[42px] pl-[15px] rounded-r-[8px]' placeholder='+375 (29) 0000000' type="tel" /></span></div>
+                <div className=''><input required placeholder='Комментарий' className='pl-[15px] pb-[40px] bg-[white] max-w-[453px] w-full h-[80px] border-[1px] border-[#00103D1F] rounded-[8px]' type="textarea" /></div>
                 <span><button className='bg-[#EF7C00] text-[white] py-[10px] px-[40px] rounded-[8px] hover:bg-[orangered] duration-300 cursor-pointer' >Получить информацию</button></span>
               </form>
             </div>
@@ -151,7 +151,7 @@ function App() {
         <section className='pt-[40px] pb-[60px] px-[20px]'>
           <div className='container mx-auto'>
             <h1 className='text-[32px] font-[600] text-center pb-[20px]'>Новости</h1>
-            <div className='grid grid-cols-3 gap-[30px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]'>
               <div className='flex flex-col gap-[10px]'>
                 <div className='max-w-[650px]'>
                   <img className='h-[250px] object-cover w-full' src="/images/Leangroup-media-pic-2048x2048_04a-январь 1.png" alt="" />
